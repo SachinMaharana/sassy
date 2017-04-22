@@ -3,19 +3,89 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SASSY</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Hello, world!</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+
+    <style>
+        div.movie-image {
+            margin: 20px;
+        }
+
+        div.movie-image img {
+            -webkit-box-shadow: 5 5 5 0 #000;
+            -moz-box-shadow: 5 5 5 0 #000;
+            box-shadow: 5px 5px 5px 0 #000;
+        }
+
+        h2.movie-title {
+            font-variant: small-caps;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <nav id="main-nav">
-            <div class="wrapper"> </div>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header"><a href="#" class="navbar-brand">Hello world</a></div>
+            </div>
         </nav>
-    </header>
 
+        <div class="row">
+            <h1>My favorite movies
+                <div class="row">
+                    <div class="col-md-4 movie-image"><img src="https://image.tmdb.org/t/p/w185/5Jx6s6VXnunh8wCLgR0YgjwSgjh.jpg" alt=""></div>
+                    <div class="col-md-8">
+                        <h2 class="movie-title">Hot Fuzz</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 movie-image"><img src="https://image.tmdb.org/t/p/w185/pYiAYDn3ltw9Fq7izODuq7oWYwX.jpg" alt=""></div>
+                    <div class="col-md-8">
+                        <h2 class="movie-title">Primer</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 movie-image"><img src="https://image.tmdb.org/t/p/w185/lZpWprJqbIFpEV5uoHfoK0KCnTW.jpg" alt=""></div>
+                    <div class="col-md-8">
+                        <h2 class="movie-title">The Matrix</h2>
+                    </div>
+                </div>
+            </h1>
+        </div>
+        <div class="row">
+            <h1>My least favorite movies
+                <div class="row">
+                    <div class="col-md-4 movie-image"><img src="https://image.tmdb.org/t/p/w185/6V1TFvZsbQi2fpxIZtseqBCvuRM.jpg" alt=""></div>
+                    <div class="col-md-8">
+                        <h2 class="movie-title">Cats and Dogs 2: The Revenge of Kitty Galore</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 movie-image"><img src="https://image.tmdb.org/t/p/w185/5kO6hVZrtBZ98VfpgHvwivjXgMg.jpg" alt=""></div>
+                    <div class="col-md-8">
+                        <h2 class="movie-title">The Last Airbender</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 movie-image"><img src="https://image.tmdb.org/t/p/w185/uC2pAMjb32NIgQ1GdC1Bl6LZJc2.jpg" alt=""></div>
+                    <div class="col-md-8">
+                        <h2 class="movie-title">Spider-Man 3</h2>
+                    </div>
+                </div>
+            </h1>
+        </div>
+    </div>
 </body>
 
 </html>
